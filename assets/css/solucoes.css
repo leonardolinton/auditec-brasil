@@ -1,0 +1,126 @@
+#solucoes {
+    background-color: var(--color-01);
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+#solucoes .section-header p {
+    color: var(--color-04);
+}
+
+#solucoes .solucao-container {
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+    /* Espaçamento entre colunas (opcional) */
+
+}
+
+.section-header-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.solucao-detalhe {
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    transition: transform 0.3s ease;
+    background-color: var(--color-03);
+}
+
+.solucao-detalhe:hover {
+    transform: translateY(-5px);
+}
+
+.solucao-img {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+.solucao-detalhe img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.solucao-info {
+    padding: 0.5rem;
+}
+
+.solucao-info h3 {
+    font-size: 1.5rem;
+    color: var(--color-01);
+}
+
+#solucoes .solucao-info p {
+    color: var(--color-04);
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.solucao-specs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--cinza-claro);
+}
+
+.spec-item {
+    text-align: center;
+}
+
+.spec-item strong {
+    display: block;
+    color: var(--laranja);
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.spec-item span {
+    color: grey;
+    font-size: 0.9rem;
+}
+
+.page-header {
+    background: linear-gradient(135deg, var(--cinza-claro) 0%, white 100%);
+    padding: 120px 0 60px;
+    text-align: center;
+}
+
+.page-title {
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.page-subtitle {
+    font-size: 1.2rem;
+    color: grey;
+}
+
+
+@media (max-width: 1000px) {
+
+    #solucoes .solucao-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* Duas colunas iguais */
+        gap: 20px;
+        /* Espaçamento entre colunas (opcional) */
+
+    }
+}

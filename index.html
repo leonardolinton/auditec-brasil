@@ -8,8 +8,7 @@
     <meta name="description" content="Especialistas em cofres residenciais.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -24,9 +23,9 @@
             </button>
             <ul id="menu" role="menu">
                 <li><a href="#home" class="menu-link">home</a></li>
-                <li><a href="#solutions" class="menu-link">solucoes</a></li>
-                <li><a href="#testimonials" class="menu-link">depoimentos</a></li>
                 <li><a href="#about" class="menu-link">sobre</a></li>
+                <li><a href="#solucoes" class="menu-link">solucoes</a></li>
+                <li><a href="#testimonials" class="menu-link">depoimentos</a></li>
                 <li><a href="#contact" class="menu-link">contato</a></li>
             </ul>
         </nav>
@@ -93,36 +92,159 @@
                         </button>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <!-- Header -->
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">
+                    Sobre a <span class="gradient-text">Auditec</span>
+                </h2>
+                <p class="section-description">
+                    Pioneiros em soluções de segurança tecnológica, combinamos tradição
+                    e inovação para proteger o que é mais importante para você.
+                </p>
+            </div>
+
+            <!-- Main Content -->
+            <div class="about-content">
+                <!-- Left Content -->
+                <div class="about-text" data-aos="fade-right">
+                    <h3 class="about-subtitle">Nossa História e Missão</h3>
+                    <p class="about-paragraph">
+                        Fundada em 2008, a Auditec nasceu da visão de revolucionar o mercado de
+                        segurança patrimonial através da tecnologia. Somos especialistas em desenvolver
+                        e instalar cofres de alta segurança que combinam robustez física com
+                        inteligência digital.
+                    </p>
+                    <p class="about-paragraph">
+                        Nossa missão é proporcionar tranquilidade absoluta aos nossos clientes,
+                        oferecendo soluções que vão além da simples proteção física, integrando
+                        tecnologias avançadas como biometria, IoT e criptografia militar.
+                    </p>
+
+                    <!-- Mission Statement -->
+                    <div class="mission-statement">
+                        <h4 class="mission-title">Nossa Visão</h4>
+                        <p class="mission-content">
+                            Ser a empresa líder em soluções de segurança tecnológica, reconhecida
+                            pela inovação, qualidade e compromisso com a proteção patrimonial.
+                        </p>
+                    </div>
+                </div>
 
                 <!-- Right Content -->
-                <div class="hero-image" data-aos="fade-left">
-                    <div class="safe-container">
-                        <div class="safe-display">
-                            <div class="safe-content">
-                                <svg class="safe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2">
+                <div class="about-image" data-aos="fade-left">
+                    <div class="company-display">
+                        <div class="company-icons">
+                            <div class="company-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" />
                                 </svg>
-                                <p class="safe-title">Cofre Tecnológico</p>
-                                <p class="safe-subtitle">Proteção Digital Avançada</p>
                             </div>
-                            <div class="status-indicator status-1"></div>
-                            <div class="status-indicator status-2"></div>
+                            <div class="company-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21.5 2v6h-6M2.5 22v-6h6m13-10L2.5 16m0-14l19 10" />
+                                </svg>
+                            </div>
+                            <div class="company-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                                    <circle cx="9" cy="7" r="4" />
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                </svg>
+                            </div>
+                            <div class="company-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <circle cx="12" cy="12" r="6" />
+                                    <circle cx="12" cy="12" r="2" />
+                                </svg>
+                            </div>
                         </div>
+                        <p class="company-title">Auditec</p>
+                        <p class="company-subtitle">Excelência em Segurança</p>
                     </div>
+                </div>
+            </div>
 
-                    <!-- Floating elements -->
-                    <div class="floating-element floating-1">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
-                            <circle cx="12" cy="16" r="1" />
-                            <path d="M7 11V7a5 5 0 0 1 10 0v4" />
-                        </svg>
+            <!-- Values -->
+            <div class="values-section" data-aos="fade-up">
+                <h3 class="values-title">Nossos Valores</h3>
+                <div class="values-grid">
+                    <div class="value-item" data-aos="fade-up" data-aos-delay="0">
+                        <div class="value-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" />
+                            </svg>
+                        </div>
+                        <h4 class="value-title">Segurança</h4>
+                        <p class="value-description">Comprometidos em oferecer a mais alta tecnologia em proteção
+                            patrimonial.</p>
                     </div>
-                    <div class="floating-element floating-2">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" />
+                    <div class="value-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="value-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21.5 2v6h-6M2.5 22v-6h6m13-10L2.5 16m0-14l19 10" />
+                            </svg>
+                        </div>
+                        <h4 class="value-title">Excelência</h4>
+                        <p class="value-description">Buscamos constantemente a perfeição em todos os nossos produtos e
+                            serviços.</p>
+                    </div>
+                    <div class="value-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="value-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                                <circle cx="9" cy="7" r="4" />
+                                <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                            </svg>
+                        </div>
+                        <h4 class="value-title">Confiança</h4>
+                        <p class="value-description">Construímos relacionamentos duradouros baseados na transparência e
+                            qualidade.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Achievements -->
+            <div class="achievements-section" data-aos="fade-up">
+                <h3 class="achievements-title">Por que Escolher a Auditec</h3>
+                <div class="achievements-grid">
+                    <div class="achievement-item" data-aos="fade-up" data-aos-delay="0">
+                        <svg class="achievement-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="12" r="10" />
+                            <circle cx="12" cy="12" r="6" />
+                            <circle cx="12" cy="12" r="2" />
                         </svg>
+                        <h4 class="achievement-title">Precisão</h4>
+                        <p class="achievement-description">Soluções personalizadas que atendem exatamente às
+                            necessidades de cada cliente.</p>
+                    </div>
+                    <div class="achievement-item" data-aos="fade-up" data-aos-delay="100">
+                        <svg class="achievement-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                        </svg>
+                        <h4 class="achievement-title">Inovação</h4>
+                        <p class="achievement-description">Sempre na vanguarda da tecnologia em sistemas de segurança.
+                        </p>
+                    </div>
+                    <div class="achievement-item" data-aos="fade-up" data-aos-delay="200">
+                        <svg class="achievement-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="12" r="10" />
+                            <polyline points="12,6 12,12 16,14" />
+                        </svg>
+                        <h4 class="achievement-title">Experiência</h4>
+                        <p class="achievement-description">Mais de 15 anos de expertise no mercado de segurança
+                            patrimonial.</p>
                     </div>
                 </div>
             </div>
@@ -130,7 +252,7 @@
     </section>
 
     <!-- Solutions Section -->
-    <section id="solutions" class="solutions">
+    <section id="solucoes" class="section-padding">
         <div class="container">
             <!-- Header -->
             <div class="section-header" data-aos="fade-up">
@@ -138,151 +260,166 @@
                     Nossas <span class="gradient-text">Soluções</span>
                 </h2>
                 <p class="section-description">
-                    Oferecemos três categorias de cofres tecnológicos, cada uma projetada
-                    para atender às necessidades específicas de nossos clientes.
+                    Soluções avançadas em cofres de segurança com tecnologia de ponta para residências,
+                    empresas e indústrias. Sua tranquilidade é nossa prioridade.
                 </p>
             </div>
+            <div class="solucao-container">
+                <!-- solucao 1 -->
+                <div class="solucao-detalhe">
+                    <div class="solucao-img">
+                        <img src="./assets/img/card-solucao-01.jpeg" alt="Metalurgica">
+                    </div>
 
-            <!-- Solutions Grid -->
-            <div class="solutions-grid">
-                <div class="solution-card" data-aos="fade-up" data-aos-delay="0">
-                    <div class="solution-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-                            <polyline points="9,22 9,12 15,12 15,22" />
-                        </svg>
+                    <div class="solucao-info">
+                        <h3>Portas Blindadas</h3>
+                        <p>Soluções ideais para residências e empresas que exigem proteção balística com design moderno
+                            e robusto.</p>
                     </div>
-                    <h3 class="solution-title">Residencial</h3>
-                    <p class="solution-description">
-                        Cofres compactos e elegantes para proteger documentos, joias e valores pessoais em sua casa.
-                    </p>
-                    <ul class="solution-features">
-                        <li>Biometria avançada</li>
-                        <li>Design discreto</li>
-                        <li>Fácil instalação</li>
-                        <li>App móvel</li>
-                    </ul>
-                    <div class="solution-image">
-                        <div class="safe-preview">
-                            <svg class="safe-preview-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" />
-                            </svg>
-                            <p>Cofre Residencial</p>
-                        </div>
-                        <div class="tech-indicators">
-                            <div class="tech-dot tech-dot-1"></div>
-                            <div class="tech-dot tech-dot-2"></div>
-                        </div>
-                    </div>
-                    <button class="solution-btn">Saiba Mais</button>
                 </div>
 
-                <div class="solution-card" data-aos="fade-up" data-aos-delay="100">
-                    <div class="solution-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
-                            <line x1="3" x2="21" y1="6" y2="6" />
-                            <path d="M16 10a4 4 0 0 1-8 0" />
-                        </svg>
+                <!-- solucao 2 -->
+                <div class="solucao-detalhe">
+                    <div class="solucao-img">
+                        <img src="./assets/img/card-solucao-02.jpeg" alt="Metalurgica">
                     </div>
-                    <h3 class="solution-title">Comercial</h3>
-                    <p class="solution-description">
-                        Soluções robustas para empresas que precisam proteger documentos importantes e valores.
-                    </p>
-                    <ul class="solution-features">
-                        <li>Múltiplos usuários</li>
-                        <li>Auditoria completa</li>
-                        <li>Backup na nuvem</li>
-                        <li>Suporte 24/7</li>
-                    </ul>
-                    <div class="solution-image">
-                        <div class="safe-preview">
-                            <svg class="safe-preview-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" />
-                            </svg>
-                            <p>Cofre Comercial</p>
-                        </div>
-                        <div class="tech-indicators">
-                            <div class="tech-dot tech-dot-1"></div>
-                            <div class="tech-dot tech-dot-2"></div>
-                        </div>
+
+                    <div class="solucao-info">
+                        <h3>Portões Blindados</h3>
+                        <p>Portões blindados fabricados com materiais de alta resistência, ideais para proteger o que
+                            mais importa.</p>
                     </div>
-                    <button class="solution-btn">Saiba Mais</button>
                 </div>
 
-                <div class="solution-card" data-aos="fade-up" data-aos-delay="200">
-                    <div class="solution-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
-                            <line x1="8" x2="16" y1="21" y2="21" />
-                            <line x1="12" x2="12" y1="17" y2="21" />
-                        </svg>
+                <!-- solucao 3 -->
+                <div class="solucao-detalhe">
+                    <div class="solucao-img">
+                        <img src="./assets/img/card-solucao-03.jpeg" alt="Porta forte fabricada sob medida">
                     </div>
-                    <h3 class="solution-title">Industrial</h3>
-                    <p class="solution-description">
-                        Cofres de alta capacidade para indústrias com necessidades especiais de segurança.
-                    </p>
-                    <ul class="solution-features">
-                        <li>Resistência extrema</li>
-                        <li>Monitoramento remoto</li>
-                        <li>Integração sistemas</li>
-                        <li>Manutenção preventiva</li>
-                    </ul>
-                    <div class="solution-image">
-                        <div class="safe-preview">
-                            <svg class="safe-preview-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" />
-                            </svg>
-                            <p>Cofre Industrial</p>
-                        </div>
-                        <div class="tech-indicators">
-                            <div class="tech-dot tech-dot-1"></div>
-                            <div class="tech-dot tech-dot-2"></div>
-                        </div>
-                    </div>
-                    <button class="solution-btn">Saiba Mais</button>
-                </div>
-            </div>
 
-            <!-- Technology Section -->
-            <div class="technology-section" data-aos="fade-up">
-                <h3 class="technology-title">Tecnologia de Ponta</h3>
-                <div class="technology-grid">
-                    <div class="tech-feature">
-                        <div class="tech-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
-                                <circle cx="12" cy="16" r="1" />
-                                <path d="M7 11V7a5 5 0 0 1 10 0v4" />
-                            </svg>
-                        </div>
-                        <h4>Biometria Avançada</h4>
-                        <p>Reconhecimento facial e digital de última geração para máxima segurança.</p>
-                    </div>
-                    <div class="tech-feature">
-                        <div class="tech-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
-                                <line x1="8" x2="16" y1="21" y2="21" />
-                                <line x1="12" x2="12" y1="17" y2="21" />
-                            </svg>
-                        </div>
-                        <h4>IoT Integrado</h4>
-                        <p>Conectividade inteligente com monitoramento remoto 24/7.</p>
-                    </div>
-                    <div class="tech-feature">
-                        <div class="tech-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" />
-                            </svg>
-                        </div>
-                        <h4>Criptografia Militar</h4>
-                        <p>Proteção de dados com padrões militares de segurança.</p>
+                    <div class="solucao-info">
+                        <h3>Porta forte fabricada sob medida</h3>
+                        <p>Soluções em portas fortes sob medida, com estrutura reforçada e alto padrão de blindagem.</p>
                     </div>
                 </div>
+
+                <!-- solucao 4 -->
+                <div class="solucao-detalhe">
+                    <div class="solucao-img">
+                        <img src="./assets/img/card-solucao-04.jpeg" alt="Portas blindadas fabricadas sob medidas">
+                    </div>
+
+                    <div class="solucao-info">
+                        <h3>Portas blindadas fabricadas sob medidas</h3>
+                        <p>Soluções ideais para residências e empresas que exigem proteção balística com design moderno
+                            e robusto.</p>
+                    </div>
+                </div>
+
+                <!-- solucao 5 -->
+                <div class="solucao-detalhe">
+                    <div class="solucao-img">
+                        <img src="./assets/img/card-solucao-05.jpeg" alt="Cofre de altíssima segurança C 140">
+                    </div>
+
+                    <div class="solucao-info">
+                        <h3>Cofre de altíssima segurança C 140</h3>
+                        <p>Cofre C 140 – Altíssima segurança para proteger o que realmente importa.</p>
+                    </div>
+                </div>
+
+                <!-- solucao 6 -->
+                <div class="solucao-detalhe">
+                    <div class="solucao-img">
+                        <img src="./assets/img/card-solucao-06.jpeg" alt="Cofre completado C 100">
+                    </div>
+
+                    <div class="solucao-info">
+                        <h3>Cofre completado C 100s</h3>
+                        <p>Cofre Completado C 100 – Proteção inteligente, discreta e confiável para seus bens mais
+                            valiosos.</p>
+                    </div>
+                </div>
+
+                <!-- solucao 7 -->
+                <div class="solucao-detalhe">
+                    <div class="solucao-img">
+                        <img src="./assets/img/card-solucao-07.jpeg" alt="Cofre de blindado alta segurança">
+                    </div>
+
+                    <div class="solucao-info">
+                        <h3>Cofre de blindado alta segurança</h3>
+                        <p>Blindagem total. Segurança inquestionável.</p>
+                    </div>
+                </div>
+
+                <!-- solucao 8 -->
+                <div class="solucao-detalhe">
+                    <div class="solucao-img">
+                        <img src="./assets/img/card-solucao-08.jpeg" alt="Cofre completado c 80">
+                    </div>
+
+                    <div class="solucao-info">
+                        <h3>Cofre completado c 80</h3>
+                        <p>Cofre Completado C 80 – Compacto no tamanho, grande na segurança.</p>
+                    </div>
+                </div>
+
+                <!-- solucao 9 -->
+                <div class="solucao-detalhe">
+                    <div class="solucao-img">
+                        <img src="./assets/img/card-solucao-09.jpeg" alt="Cofre de alta segurança com boca de lobo">
+                    </div>
+
+                    <div class="solucao-info">
+                        <h3>Cofre de alta segurança com boca de lobo</h3>
+                        <p>Boca de lobo para depósito ágil. Segurança de alto nível para o seu negócio.</p>
+                    </div>
+                </div>
+
+                <!-- solucao 10 -->
+                <div class="solucao-detalhe">
+                    <div class="solucao-img">
+                        <img src="./assets/img/card-solucao-10.jpeg"
+                            alt="Cofre de alta segurança com boca de lobo frontal">
+                    </div>
+
+                    <div class="solucao-info">
+                        <h3>Cofre de alta segurança com boca de lobo frontal</h3>
+                        <p>Deposite com agilidade e segurança: boca de lobo frontal com blindagem total para o seu
+                            negócio.</p>
+                    </div>
+                </div>
+
+                <!-- solucao 11 -->
+                <div class="solucao-detalhe">
+                    <div class="solucao-img">
+                        <img src="./assets/img/card-solucao-11.jpeg"
+                            alt="Cofre Digital Á Prova D'água/fogo 22,8 L Preto">
+                    </div>
+
+                    <div class="solucao-info">
+                        <h3>Cofre Digital Á Prova D'água/fogo 22,8 L Pretol</h3>
+                        <p>Resistente ao fogo. Selado contra a água. E com trava digital. O cofre ideal para quem leva a
+                            segurança a sério.</p>
+                    </div>
+                </div>
+
+                <!-- solucao 12 -->
+                <div class="solucao-detalhe">
+                    <div class="solucao-img">
+                        <img src="./assets/img/card-solucao-12.jpeg"
+                            alt="Cofre Caixa De Arquivo Contra Fogo E Água 18,3l - Sentrysafe Cor Preto">
+                    </div>
+
+                    <div class="solucao-info">
+                        <h3>Cofre Caixa De Arquivo Contra Fogo E Água 18,3l - Sentrysafe Cor Preto</h3>
+                        <p>Cofre caixa de arquivo SentrySafe 18,3L – proteção confiável contra fogo e água para seus
+                            documentos mais importantes.</p>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </section>
@@ -494,161 +631,7 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <!-- Header -->
-            <div class="section-header" data-aos="fade-up">
-                <h2 class="section-title">
-                    Sobre a <span class="gradient-text">Auditec</span>
-                </h2>
-                <p class="section-description">
-                    Pioneiros em soluções de segurança tecnológica, combinamos tradição
-                    e inovação para proteger o que é mais importante para você.
-                </p>
-            </div>
 
-            <!-- Main Content -->
-            <div class="about-content">
-                <!-- Left Content -->
-                <div class="about-text" data-aos="fade-right">
-                    <h3 class="about-subtitle">Nossa História e Missão</h3>
-                    <p class="about-paragraph">
-                        Fundada em 2008, a Auditec nasceu da visão de revolucionar o mercado de
-                        segurança patrimonial através da tecnologia. Somos especialistas em desenvolver
-                        e instalar cofres de alta segurança que combinam robustez física com
-                        inteligência digital.
-                    </p>
-                    <p class="about-paragraph">
-                        Nossa missão é proporcionar tranquilidade absoluta aos nossos clientes,
-                        oferecendo soluções que vão além da simples proteção física, integrando
-                        tecnologias avançadas como biometria, IoT e criptografia militar.
-                    </p>
-
-                    <!-- Mission Statement -->
-                    <div class="mission-statement">
-                        <h4 class="mission-title">Nossa Visão</h4>
-                        <p class="mission-content">
-                            Ser a empresa líder em soluções de segurança tecnológica, reconhecida
-                            pela inovação, qualidade e compromisso com a proteção patrimonial.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Right Content -->
-                <div class="about-image" data-aos="fade-left">
-                    <div class="company-display">
-                        <div class="company-icons">
-                            <div class="company-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" />
-                                </svg>
-                            </div>
-                            <div class="company-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M21.5 2v6h-6M2.5 22v-6h6m13-10L2.5 16m0-14l19 10" />
-                                </svg>
-                            </div>
-                            <div class="company-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-                                    <circle cx="9" cy="7" r="4" />
-                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                                </svg>
-                            </div>
-                            <div class="company-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <circle cx="12" cy="12" r="10" />
-                                    <circle cx="12" cy="12" r="6" />
-                                    <circle cx="12" cy="12" r="2" />
-                                </svg>
-                            </div>
-                        </div>
-                        <p class="company-title">Auditec</p>
-                        <p class="company-subtitle">Excelência em Segurança</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Values -->
-            <div class="values-section" data-aos="fade-up">
-                <h3 class="values-title">Nossos Valores</h3>
-                <div class="values-grid">
-                    <div class="value-item" data-aos="fade-up" data-aos-delay="0">
-                        <div class="value-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" />
-                            </svg>
-                        </div>
-                        <h4 class="value-title">Segurança</h4>
-                        <p class="value-description">Comprometidos em oferecer a mais alta tecnologia em proteção
-                            patrimonial.</p>
-                    </div>
-                    <div class="value-item" data-aos="fade-up" data-aos-delay="100">
-                        <div class="value-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21.5 2v6h-6M2.5 22v-6h6m13-10L2.5 16m0-14l19 10" />
-                            </svg>
-                        </div>
-                        <h4 class="value-title">Excelência</h4>
-                        <p class="value-description">Buscamos constantemente a perfeição em todos os nossos produtos e
-                            serviços.</p>
-                    </div>
-                    <div class="value-item" data-aos="fade-up" data-aos-delay="200">
-                        <div class="value-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-                                <circle cx="9" cy="7" r="4" />
-                                <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-                                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                            </svg>
-                        </div>
-                        <h4 class="value-title">Confiança</h4>
-                        <p class="value-description">Construímos relacionamentos duradouros baseados na transparência e
-                            qualidade.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Achievements -->
-            <div class="achievements-section" data-aos="fade-up">
-                <h3 class="achievements-title">Por que Escolher a Auditec</h3>
-                <div class="achievements-grid">
-                    <div class="achievement-item" data-aos="fade-up" data-aos-delay="0">
-                        <svg class="achievement-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <circle cx="12" cy="12" r="10" />
-                            <circle cx="12" cy="12" r="6" />
-                            <circle cx="12" cy="12" r="2" />
-                        </svg>
-                        <h4 class="achievement-title">Precisão</h4>
-                        <p class="achievement-description">Soluções personalizadas que atendem exatamente às
-                            necessidades de cada cliente.</p>
-                    </div>
-                    <div class="achievement-item" data-aos="fade-up" data-aos-delay="100">
-                        <svg class="achievement-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
-                        </svg>
-                        <h4 class="achievement-title">Inovação</h4>
-                        <p class="achievement-description">Sempre na vanguarda da tecnologia em sistemas de segurança.
-                        </p>
-                    </div>
-                    <div class="achievement-item" data-aos="fade-up" data-aos-delay="200">
-                        <svg class="achievement-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <circle cx="12" cy="12" r="10" />
-                            <polyline points="12,6 12,12 16,14" />
-                        </svg>
-                        <h4 class="achievement-title">Experiência</h4>
-                        <p class="achievement-description">Mais de 15 anos de expertise no mercado de segurança
-                            patrimonial.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
